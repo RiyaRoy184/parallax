@@ -1,0 +1,58 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&display=swap'); */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.Home{
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #532d50, #36749a);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.Home img{
+    position: absolute;
+    width: 100%;
+    pointer-events: none;
+}
+.grass{
+    bottom: 0;
+    height: 200px;
+}
+.rainbow{
+    transform-origin: 50% 100%;
+    margin-top: 60px;
+    width:50px;
+}
+.trees{
+   
+    height: 500px;
+    margin-left: -1300px;
+    margin-top: 400px;
+}
+.About{
+    min-height: 100vh;
+    background-color:cornflowerblue;
+    color:blanchedalmond;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+}
+.About h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive;
+}
+.About p{
+    font-size: 20px;
+    font-family: cursive;
+}
